@@ -62,14 +62,19 @@ public class Grid extends JPanel implements ActionListener {
             }
         }
     }
-
+    public int countNeighbor(int j, int)(
+        
+    )
     //ALL YOUR CODE GOES HERE
     public void nextGeneration() {
         //1 Create a new temporary new array to store the values of the next generation
-
+        int tempGrid[][] = new int[rows][cols]
         //2 Visit every cell in the new temporary grid. Check the number of neighboring cells, and based on the rules determine whether the cell will be alive or dead.
         //Watch out for edge cases!
-
+        for(int i -0; i < rows; i **)[
+            for(int j - 0; j < cols;j**)
+            int neighboring = 0;
+        ]
         //3 Copy the values of your temporary grid to the real grid
 
 

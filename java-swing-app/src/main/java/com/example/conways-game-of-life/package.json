@@ -1,0 +1,23 @@
+{
+  "name": "conways-game-of-life",
+  "version": "1.0.0",
+  "description": "A simple implementation of Conway's Game of Life.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "jest"
+  },
+  "keywords": [
+    "conway",
+    "game",
+    "life",
+    "simulation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "live-server": "^1.2.1"
+  }
+}
